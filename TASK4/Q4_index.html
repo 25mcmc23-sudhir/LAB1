@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Registration Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="D:\Programming\Web Dev\CSS\Q4_style.css" />
+    </head>
+    <body>
+        <div class="form-container">
+            <h2>Registration Form</h2>
+
+            <form id="regForm" onsubmit="return validateForm();">
+                <label>Name</label>
+                <input type="text" id="name" onkeyup="validateName()" />
+                <span class="error" id="nameError"></span>
+
+                <label>Email</label>
+                <input type="email" id="email" onkeyup="validateEmail()" />
+                <span class="error" id="emailError"></span>
+
+                <label>Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    onkeyup="validatePassword()"
+                />
+                <span class="error" id="passwordError"></span>
+                <span class="strength" id="strength"></span>
+
+                <label>Date of Birth</label>
+                <input type="date" id="dob" onchange="validateDOB()" />
+                <span class="error" id="dobError"></span>
+
+                <label>Phone Number</label>
+                <input type="text" id="phone" onkeyup="validatePhone()" />
+                <span class="error" id="phoneError"></span>
+
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <script src="D:\Programming\Web Dev\JavaScript\Q4_script.js"></script>
+    </body>
+</html>
