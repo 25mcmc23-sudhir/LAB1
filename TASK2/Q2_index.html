@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <meta
+            name="description"
+            content="Personal blog sharing thoughts on technology, learning, and life."
+        />
+        <meta
+            name="keywords"
+            content="personal blog, HTML5, CSS3, web development"
+        />
+        <meta name="author" content="Your Name" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>My Personal Blog</title>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merriweather&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="D:\Programming\Web Dev\CSS\Q2_style.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <h1>My <span class="highlight">Personal</span> Blog</h1>
+            <p>Thoughts, Stories & Learnings</p>
+        </header>
+
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <main class="container">
+            <article class="post">
+                <h2>Getting Started with Web Development</h2>
+                <p class="post-meta">
+                    Posted on <span>January 20, 2026</span> by
+                    <span>Admin</span>
+                </p>
+
+                <div class="post-content">
+                    <p>
+                        Web development is an exciting journey. Using
+                        <span class="highlight">HTML5</span> and
+                        <span class="highlight">CSS3</span>, we can create
+                        beautiful, responsive websites that follow modern web
+                        standards.
+                    </p>
+
+                    <p>
+                        This blog is built using pure HTML and external CSS,
+                        ensuring clean code and W3C compliance.
+                    </p>
+                </div>
+            </article>
+
+            <aside class="sidebar">
+                <h3>About Me</h3>
+                <p>
+                    I am a web enthusiast learning modern frontend technologies.
+                </p>
+
+                <h3>Categories</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>HTML & CSS</li>
+                    <li>Learning</li>
+                </ul>
+            </aside>
+        </main>
+
+        <section class="comments container">
+            <h2>Comments</h2>
+            <div id="disqus_thread"></div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 My Personal Blog | All Rights Reserved</p>
+        </footer>
+
+        <script>
+            (function () {
+                var d = document,
+                    s = d.createElement("script");
+                s.src = "https://YOUR-DISQUS-SHORTNAME.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    </body>
+</html>
