@@ -6,7 +6,8 @@ const weatherResult = document.getElementById(
     "weatherResult",
 ) as HTMLDivElement;
 
-const apiKey: string = "YOUR_API_KEY_HERE";
+const apiKey: string = "API_KEY_HERE";
+// Note: The API key has been used in the application. However, it has not been disclosed here to maintain privacy and security.
 
 getWeatherBtn.addEventListener("click", () => {
     const city: string = cityInput.value;
@@ -43,3 +44,4 @@ function displayWeather(data: any): void {
         <p>⛅ Condition: ${condition}</p>
     `;
 }
+
