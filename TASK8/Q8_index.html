@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <title>XML to JSON using jQuery</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Q8_script.js"></script>
+
+        <link rel="stylesheet" href="Q8_style.css" />
+    </head>
+
+    <body>
+        <h2>Book Catalog (XML → JSON using jQuery)</h2>
+
+        <label>Genre:</label>
+        <select id="genreFilter">
+            <option value="All">All</option>
+        </select>
+
+        <label>Author:</label>
+        <select id="authorFilter">
+            <option value="All">All</option>
+        </select>
+
+        <label>Min Price:</label>
+        <input type="number" id="minPrice" placeholder="0" />
+
+        <label>Max Price:</label>
+        <input type="number" id="maxPrice" placeholder="100" />
+
+        <button id="filterBtn">Apply Filter</button>
+
+        <table id="bookTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Price</th>
+                    <th>Publication Date</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </body>
+</html>

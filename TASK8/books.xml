@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Fiction</genre>
+        <price>650.99</price>
+        <publicationDate>10-04-1925</publicationDate>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction</genre>
+        <price>1200.50</price>
+        <publicationDate>11-07-1960</publicationDate>
+    </book>
+    <book>
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <genre>Science</genre>
+        <price>1500.00</price>
+        <publicationDate>01-03-1988</publicationDate>
+    </book>
+    <book>
+        <title>The Art of War</title>
+        <author>Sun Tzu</author>
+        <genre>Philosophy</genre>
+        <price>800.75</price>
+        <publicationDate>01-01-1997</publicationDate>
+    </book>
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <genre>Programming</genre>
+        <price>320.99</price>
+        <publicationDate>01-08-2008</publicationDate>
+    </book>
+    <book>
+        <title>JavaScript: The Good Parts</title>
+        <author>Douglas Crockford</author>
+        <genre>Programming</genre>
+        <price>280.00</price>
+        <publicationDate>15-05-2008</publicationDate>
+    </book>
+    <book>
+        <title>Effective Java</title>
+        <author>Joshua Bloch</author>
+        <genre>Programming</genre>
+        <price>350.00</price>
+        <publicationDate>08-05-2008</publicationDate>
+    </book>
+    <book>
+        <title>Learning Python</title>
+        <author>Mark Lutz</author>
+        <genre>Programming</genre>
+        <price>400.00</price>
+        <publicationDate>12-06-2013</publicationDate>
+    </book>
+</catalog>
