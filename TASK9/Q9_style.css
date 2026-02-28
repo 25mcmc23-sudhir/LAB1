@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    text-align: center;
+}
+#form-container {
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 28.2em;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input,
+select {
+    padding: 5px;
+    width: 250px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.hidden {
+    display: none;
+}
+input:hover,
+select:hover {
+    background-color: rgb(228, 202, 168);
+}
