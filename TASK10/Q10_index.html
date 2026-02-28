@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Custom jQuery Tab Plugin</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Q10_script.js"></script>
+
+        <link rel="stylesheet" href="Q10_style.css" />
+    </head>
+    <body>
+        <h2>Tabbed Navigation Plugin Example</h2>
+
+        <div class="tabs" id="myTabs">
+            <ul class="tab-links">
+                <li data-tab="home" tabindex="0">Home</li>
+                <li data-tab="about" tabindex="0">About</li>
+                <li data-tab="contact" tabindex="0">Contact</li>
+            </ul>
+
+            <div class="tab-content" id="home">
+                <h3>Home Section</h3>
+                <p>Welcome to our homepage content.</p>
+            </div>
+
+            <div class="tab-content" id="about">
+                <h3>About Section</h3>
+                <p>This is information about us.</p>
+            </div>
+
+            <div class="tab-content" id="contact">
+                <h3>Contact Section</h3>
+                <p>Here is our contact information.</p>
+            </div>
+        </div>
+    </body>
+</html>

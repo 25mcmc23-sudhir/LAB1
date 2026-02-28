@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    margin: 40px;
+}
+
+.tabs {
+    width: 600px;
+}
+
+.tab-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.tab-links li {
+    padding: 10px 20px;
+    background: #eee;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.tab-links li.active-tab {
+    background: #007bff;
+    color: white;
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: -1px;
+    display: none;
+}
